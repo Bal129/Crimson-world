@@ -1,0 +1,935 @@
+{
+    "id": "1f0a2fdc-f23a-4d8d-b966-024ed712b540",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Map_Tutorial",
+        "borderWidth": 288,
+        "borderHeight": 192
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "760a2cd7-b559-4c92-b7fb-83a7052861f2",
+            "label": "sky",
+            "components": [],
+            "texture": {
+                "key": "Sky"
+            },
+            "x": 528,
+            "y": 48,
+            "scaleX": 1.25
+        },
+        {
+            "type": "TileSprite",
+            "id": "2db561da-1022-44fd-9039-924960f7bbaf",
+            "label": "clouds",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Clouds"
+            },
+            "x": 528,
+            "y": 160,
+            "width": 1200,
+            "height": 208
+        },
+        {
+            "type": "Image",
+            "id": "bce36035-f3e9-474e-b938-7fda064ee084",
+            "label": "castle",
+            "components": [],
+            "texture": {
+                "key": "castle"
+            },
+            "x": 528,
+            "y": 112
+        },
+        {
+            "type": "Image",
+            "id": "636fb4e5-8b92-4bc4-b564-e275fc700dc3",
+            "label": "caveBG",
+            "components": [],
+            "texture": {
+                "key": "CaveBG"
+            },
+            "x": 544,
+            "y": 564
+        },
+        {
+            "type": "Image",
+            "id": "664bc705-eaef-4176-8036-a937654a81a9",
+            "label": "waterfall",
+            "components": [],
+            "texture": {
+                "key": "Waterfall"
+            },
+            "x": 640,
+            "y": 496
+        },
+        {
+            "type": "TileSprite",
+            "id": "c9201253-d61b-4705-a294-998fc3e0f0a0",
+            "label": "trees",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Trees"
+            },
+            "x": 528,
+            "y": 176,
+            "width": 1200,
+            "height": 80
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "b5f2c6e0-4d07-4f85-9202-e30d4c72e2af",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole",
+            "components": [],
+            "x": 592,
+            "y": 192,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "fe5cc1c6-df9d-4d6a-8053-96386490c1e1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_1",
+            "components": [],
+            "x": 976,
+            "y": 368,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "1f0e10ed-831a-408a-aef8-20b0f5042cfa",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_2",
+            "components": [],
+            "x": 704,
+            "y": 384,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "3f5e9f47-0410-481e-aca1-d21d5868d298",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_3",
+            "components": [],
+            "x": 928,
+            "y": 320,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "3d1616b5-d8dc-4983-97ec-e4b60f71de2e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_4",
+            "components": [],
+            "x": 704,
+            "y": 640,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "d2b2faa9-e5a8-4f23-8690-97b1ce2de999",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_5",
+            "components": [],
+            "x": 192,
+            "y": 624,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "7cc95d6e-f7a8-40f7-b053-a5969ef22185",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_6",
+            "components": [],
+            "x": 208,
+            "y": 368,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "61f4a1c1-1354-4f84-a1e2-04eb9adf067d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_7",
+            "components": [],
+            "x": 400,
+            "y": 400,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "37e37f36-5635-4a0d-92ee-1b6559e98edd",
+            "id": "70e376c3-8a5c-43fd-adb8-0a83da1aa009",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "thornMole_8",
+            "components": [],
+            "x": 688,
+            "y": 32,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "a4dcde47-0bf1-49a2-991c-7f168957daa8",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_4",
+            "components": [],
+            "x": 377,
+            "y": 268
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "e9323034-d1bd-4c75-91e0-86fed5bf1cdb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_5",
+            "components": [],
+            "x": 425,
+            "y": 268
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "703d0f4a-b050-41f3-b4cb-586e61a72f16",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_6",
+            "components": [],
+            "x": 425,
+            "y": 253
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "4da2d14a-7010-4c8f-a295-8720561417cb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_7",
+            "components": [],
+            "x": 377,
+            "y": 253
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "c0c8cc93-678b-48e3-80eb-77898343a9c6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_2",
+            "components": [],
+            "x": 393,
+            "y": 236
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "c4d1b0da-1805-48af-a3ae-ef02b10289ce",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_3",
+            "components": [],
+            "x": 441,
+            "y": 236
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "23231c17-631c-49df-a527-254fdce3cdb1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard",
+            "components": [],
+            "x": 441,
+            "y": 220
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "30dd8067-763f-493d-be26-ce3e30c2234a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_1",
+            "components": [],
+            "x": 393,
+            "y": 220
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "50c76a2e-21fa-473e-9ef9-006daddc6db1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_8",
+            "components": [],
+            "x": 537,
+            "y": 508
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "87fac7d7-a0f4-4bd7-9174-5f831c2d37b0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_9",
+            "components": [],
+            "x": 569,
+            "y": 508
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "aa7df848-bf74-4252-8b60-65c1dd1a02a7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_10",
+            "components": [],
+            "x": 665,
+            "y": 524
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "f70cad56-e830-42ee-8d37-c33fe3565bab",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_11",
+            "components": [],
+            "x": 169,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "80b0b419-f688-43b2-9dff-bb48bda298a1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_12",
+            "components": [],
+            "x": 233,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "53affaf5-2667-4ea1-90b9-6593f97d47dc",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_13",
+            "components": [],
+            "x": 297,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "fd2849aa-ee8a-4b21-b409-bba21917e05c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_14",
+            "components": [],
+            "x": 345,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "9fa7a182-83a8-427d-b783-677dd73ae870",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_15",
+            "components": [],
+            "x": 393,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "df3c6367-affc-4a20-ac8d-3008961b2163",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_16",
+            "components": [],
+            "x": 473,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "c7ff5eec-f0e9-467e-9cd8-ab8682b98838",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_17",
+            "components": [],
+            "x": 457,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "d6252a0c-5f92-47b4-b61c-43d25fa9cbf9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_18",
+            "components": [],
+            "x": 537,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "ea8322bb-b218-41e9-bf84-3bb442a66b5d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_19",
+            "components": [],
+            "x": 713,
+            "y": 668
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "33eab397-d8a3-4848-8386-50c85cb32dab",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_20",
+            "components": [],
+            "x": 682,
+            "y": 668
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "7d941dc5-c981-47e8-9a10-82794ecb6b38",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_21",
+            "components": [],
+            "x": 649,
+            "y": 668
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "43660472-9fbd-4195-a979-4cc7493773c6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_22",
+            "components": [],
+            "x": 1049,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "5dcf3e0a-a7a1-4a6f-b7ac-e2cea3fdff07",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_23",
+            "components": [],
+            "x": 969,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "54aca7ab-5af1-4342-8b15-b5d492db9b2c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_24",
+            "components": [],
+            "x": 1009,
+            "y": 636
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "b9fda1ce-ff13-4b77-9ca4-4da11feb84f4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_25",
+            "components": [],
+            "x": 777,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "f6f88f2b-924d-4c14-a00f-eb992f886f03",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_26",
+            "components": [],
+            "x": 889,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "9f4af30d-692c-4bff-b589-c51f8f2799e1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_27",
+            "components": [],
+            "x": 841,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "a527be35-9fb7-4a8f-a3d5-bc2b14e39ced",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_28",
+            "components": [],
+            "x": 825,
+            "y": 652
+        },
+        {
+            "prefabId": "186e51df-118f-4c96-b16d-e7bad4226e20",
+            "id": "2e8bd476-272b-4983-bda1-67ca5e25277c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waterHazard_29",
+            "components": [],
+            "x": 825,
+            "y": 428
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "35944d3d-7a44-4254-a418-1384fa3a9660",
+            "label": "ground",
+            "scope": "CLASS",
+            "components": [],
+            "x": -63,
+            "y": -52,
+            "tilemapId": "9619ad62-8724-43a5-aec0-8a98efb75b43",
+            "layerName": "Tile Layer 1",
+            "tilesets": [
+                "Map1_Underground"
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "ef9a6a0c-2e73-469e-9388-260553497656",
+            "label": "infestedTree",
+            "components": [],
+            "texture": {
+                "key": "InfestedTree"
+            },
+            "x": 281,
+            "y": 124
+        },
+        {
+            "prefabId": "e358aa44-1737-42b3-8759-85005b240c59",
+            "id": "cb749de8-1863-4c40-b5c3-e6c77d61238b",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "key",
+            "components": [],
+            "x": 923,
+            "y": 580,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "e358aa44-1737-42b3-8759-85005b240c59",
+            "id": "fda8a188-f86d-4d69-9239-3e705f845943",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "key_1",
+            "components": [],
+            "x": 144,
+            "y": 370,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "b2a8c9b6-5ff1-409c-8b82-7573352036cc",
+            "id": "6127a2f0-d7e4-47e1-a8e3-4d29086c81cf",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "gate",
+            "scope": "CLASS",
+            "components": [],
+            "x": 825,
+            "y": 172,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "6d29b5ee-1dfc-41f2-b890-d3870078b8a0",
+            "id": "6d1119e4-31dd-4826-8a16-a09bf8a71949",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "visible"
+            ],
+            "label": "gateCollider",
+            "scope": "CLASS",
+            "components": [],
+            "x": 800,
+            "y": 200,
+            "scaleX": 0.21413957274092615,
+            "scaleY": 0.04,
+            "visible": false
+        },
+        {
+            "prefabId": "e7aaaec7-a8df-411a-ac5a-f0e337e32359",
+            "id": "0abe35ed-c933-4cf5-8454-4552eb7b5ca6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "checkPoint",
+            "components": [],
+            "x": 496,
+            "y": 192,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "e7aaaec7-a8df-411a-ac5a-f0e337e32359",
+            "id": "1512466e-7280-4aac-afbd-b759064a90a7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "checkPoint_1",
+            "components": [],
+            "x": 952,
+            "y": 448,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "e7aaaec7-a8df-411a-ac5a-f0e337e32359",
+            "id": "7dcf5df9-3971-42ae-aacc-6ab888e26c6c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "checkPoint_2",
+            "components": [],
+            "x": 144,
+            "y": 480,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "bea0417f-f285-4f23-8b1b-43969366fc6d",
+            "id": "c11f9a8b-e7fe-4950-b96f-0c44ffcf0527",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "NPC",
+            "scope": "CLASS",
+            "components": [],
+            "x": 976,
+            "y": 180
+        },
+        {
+            "prefabId": "e358aa44-1737-42b3-8759-85005b240c59",
+            "id": "2f8fca9f-ab0c-4c17-be05-a297ce60dbca",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "key_2",
+            "components": [],
+            "x": 651,
+            "y": 31,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "e358aa44-1737-42b3-8759-85005b240c59",
+            "id": "d22a0ede-6ada-428a-82e0-863b72683798",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "key_3",
+            "components": [],
+            "x": 676,
+            "y": 31,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "2bdd30b0-e379-4943-9d6b-ed6cb2ba5b0a",
+            "id": "05552e46-b4a7-4032-b0f8-a8ef46e37c57",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 59,
+            "y": 164
+        },
+        {
+            "type": "Text",
+            "id": "df8376cb-2803-4add-91a4-75e05c3f7f92",
+            "label": "NPCText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 899,
+            "y": 134,
+            "text": "Hello little guy."
+        },
+        {
+            "type": "Container",
+            "id": "af96cc86-eca8-4ac0-90c6-d17fa7fce250",
+            "label": "checkpoint",
+            "components": [
+                "FixedToCamera"
+            ],
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "a5ff3d36-9cba-4b44-b249-c5b54e92321b",
+                    "label": "keyText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 118,
+                    "y": 32,
+                    "text": "Keys:",
+                    "fontSize": "12px"
+                },
+                {
+                    "type": "Text",
+                    "id": "0bd0c30e-1fe4-458e-90af-f0167222e55e",
+                    "label": "healthText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 111,
+                    "y": 12,
+                    "text": "Health:",
+                    "fontSize": "12px"
+                },
+                {
+                    "type": "Text",
+                    "id": "cf0af959-5ae7-4712-87df-2652ca328424",
+                    "label": "checkpointText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 195,
+                    "y": 179,
+                    "visible": false,
+                    "text": "Checkpoint set!",
+                    "fontSize": "10px"
+                },
+                {
+                    "type": "Text",
+                    "id": "8bd34d7e-6c36-4a09-a666-8cfcae67d81b",
+                    "label": "returnToCheckpointText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 13,
+                    "y": 95,
+                    "visible": false,
+                    "text": "Return to the last Checkpoint",
+                    "fontSize": "15px"
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "952192f4-b810-4f14-9eda-fe0bae11d19e",
+            "label": "gateText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 730,
+            "y": 166,
+            "text": "Must have at \nleast 2 keys.\n",
+            "fontSize": "11px"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "9619ad62-8724-43a5-aec0-8a98efb75b43",
+            "type": "Tilemap",
+            "label": "map1_Underground",
+            "key": "Map1_Underground",
+            "tilesets": [
+                {
+                    "name": "Map1_Underground",
+                    "imageKey": "assets_Tutorial"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "37973ed5-b6dc-4af1-bba8-8cb4d63bf955",
+            "label": "enemies",
+            "objectIds": [
+                "b5f2c6e0-4d07-4f85-9202-e30d4c72e2af",
+                "70e376c3-8a5c-43fd-adb8-0a83da1aa009",
+                "61f4a1c1-1354-4f84-a1e2-04eb9adf067d",
+                "7cc95d6e-f7a8-40f7-b053-a5969ef22185",
+                "d2b2faa9-e5a8-4f23-8690-97b1ce2de999",
+                "3d1616b5-d8dc-4983-97ec-e4b60f71de2e",
+                "3f5e9f47-0410-481e-aca1-d21d5868d298",
+                "1f0e10ed-831a-408a-aef8-20b0f5042cfa",
+                "fe5cc1c6-df9d-4d6a-8053-96386490c1e1",
+                "08025712-8f6f-47cf-8323-40dec4764788",
+                "2e8bd476-272b-4983-bda1-67ca5e25277c",
+                "a527be35-9fb7-4a8f-a3d5-bc2b14e39ced",
+                "9f4af30d-692c-4bff-b589-c51f8f2799e1",
+                "f6f88f2b-924d-4c14-a00f-eb992f886f03",
+                "b9fda1ce-ff13-4b77-9ca4-4da11feb84f4",
+                "54aca7ab-5af1-4342-8b15-b5d492db9b2c",
+                "5dcf3e0a-a7a1-4a6f-b7ac-e2cea3fdff07",
+                "43660472-9fbd-4195-a979-4cc7493773c6",
+                "7d941dc5-c981-47e8-9a10-82794ecb6b38",
+                "33eab397-d8a3-4848-8386-50c85cb32dab",
+                "ea8322bb-b218-41e9-bf84-3bb442a66b5d",
+                "d6252a0c-5f92-47b4-b61c-43d25fa9cbf9",
+                "c7ff5eec-f0e9-467e-9cd8-ab8682b98838",
+                "df3c6367-affc-4a20-ac8d-3008961b2163",
+                "9fa7a182-83a8-427d-b783-677dd73ae870",
+                "fd2849aa-ee8a-4b21-b409-bba21917e05c",
+                "53affaf5-2667-4ea1-90b9-6593f97d47dc",
+                "80b0b419-f688-43b2-9dff-bb48bda298a1",
+                "f70cad56-e830-42ee-8d37-c33fe3565bab",
+                "aa7df848-bf74-4252-8b60-65c1dd1a02a7",
+                "87fac7d7-a0f4-4bd7-9174-5f831c2d37b0",
+                "50c76a2e-21fa-473e-9ef9-006daddc6db1",
+                "30dd8067-763f-493d-be26-ce3e30c2234a",
+                "23231c17-631c-49df-a527-254fdce3cdb1",
+                "c4d1b0da-1805-48af-a3ae-ef02b10289ce",
+                "c0c8cc93-678b-48e3-80eb-77898343a9c6",
+                "4da2d14a-7010-4c8f-a295-8720561417cb",
+                "703d0f4a-b050-41f3-b4cb-586e61a72f16",
+                "e9323034-d1bd-4c75-91e0-86fed5bf1cdb",
+                "a4dcde47-0bf1-49a2-991c-7f168957daa8"
+            ]
+        },
+        {
+            "id": "1a17df52-e7ed-471e-902e-28603d7f7386",
+            "label": "keys",
+            "objectIds": [
+                "cb749de8-1863-4c40-b5c3-e6c77d61238b",
+                "fda8a188-f86d-4d69-9239-3e705f845943",
+                "2f8fca9f-ab0c-4c17-be05-a297ce60dbca",
+                "d22a0ede-6ada-428a-82e0-863b72683798"
+            ]
+        },
+        {
+            "id": "250a808a-7c90-431a-b462-b7fc69256c16",
+            "label": "checkPoints",
+            "objectIds": [
+                "0abe35ed-c933-4cf5-8454-4552eb7b5ca6",
+                "1512466e-7280-4aac-afbd-b759064a90a7",
+                "7dcf5df9-3971-42ae-aacc-6ab888e26c6c"
+            ]
+        }
+    ]
+}

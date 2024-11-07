@@ -1,0 +1,154 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/maps/assets_Tutorial.png",
+                "type": "image",
+                "key": "assets_Tutorial"
+            },
+            {
+                "atlasURL": "assets/atlas/atlas.json",
+                "textureURL": "assets/atlas/atlas.png",
+                "type": "atlas",
+                "key": "atlas"
+            },
+            {
+                "url": "assets/sprites/backPanel.png",
+                "type": "image",
+                "key": "backPanel"
+            },
+            {
+                "url": "assets/environment/castle.png",
+                "type": "image",
+                "key": "castle"
+            },
+            {
+                "url": "assets/environment/CaveBG.png",
+                "type": "image",
+                "key": "CaveBG"
+            },
+            {
+                "url": "assets/sprites/checkpoint.png",
+                "type": "image",
+                "key": "checkpoint"
+            },
+            {
+                "url": "assets/environment/Clouds.png",
+                "type": "image",
+                "key": "Clouds"
+            },
+            {
+                "url": "assets/environment/collision.png",
+                "type": "image",
+                "key": "collision"
+            },
+            {
+                "url": "assets/sprites/credits-text.png",
+                "type": "image",
+                "key": "credits-text"
+            },
+            {
+                "url": "assets/dino.png",
+                "type": "image",
+                "key": "dino"
+            },
+            {
+                "url": "assets/maps/dreamland_map1.json",
+                "type": "tilemapTiledJSON",
+                "key": "dreamland_map1"
+            },
+            {
+                "url": "assets/maps/dreamland-tileset.png",
+                "type": "image",
+                "key": "dreamland-tileset"
+            },
+            {
+                "url": "assets/sprites/enemy.png",
+                "type": "image",
+                "key": "enemy_1"
+            },
+            {
+                "url": "assets/sprites/gate.png",
+                "type": "image",
+                "key": "gate"
+            },
+            {
+                "url": "assets/sprites/heart.png",
+                "type": "image",
+                "key": "heart"
+            },
+            {
+                "url": "assets/environment/InfestedTree.png",
+                "type": "image",
+                "key": "InfestedTree"
+            },
+            {
+                "url": "assets/sprites/key.png",
+                "type": "image",
+                "key": "key"
+            },
+            {
+                "url": "assets/maps/Map1_Underground.json",
+                "type": "tilemapTiledJSON",
+                "key": "Map1_Underground"
+            },
+            {
+                "url": "assets/sprites/NPC.png",
+                "type": "image",
+                "key": "NPC"
+            },
+            {
+                "url": "src/components/Platformer.js",
+                "type": "script",
+                "key": "Platformer"
+            },
+            {
+                "url": "assets/sprites/press-enter-text.png",
+                "type": "image",
+                "key": "press-enter-text"
+            },
+            {
+                "url": "assets/environment/Sky.png",
+                "type": "image",
+                "key": "Sky"
+            },
+            {
+                "url": "assets/sprites/title.png",
+                "type": "image",
+                "key": "title"
+            },
+            {
+                "url": "assets/sprites/title-screen.png",
+                "type": "image",
+                "key": "title-screen"
+            },
+            {
+                "url": "assets/environment/Trees.png",
+                "type": "image",
+                "key": "Trees"
+            },
+            {
+                "url": "assets/sprites/Water1.png",
+                "type": "image",
+                "key": "Water1"
+            },
+            {
+                "url": "assets/environment/Waterfall.png",
+                "type": "image",
+                "key": "Waterfall"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "bea0417f-f285-4f23-8b1b-43969366fc6d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 288,
+        "borderHeight": 192
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b94116dd-2337-4ae9-9759-4df0e4bf0150",
+            "label": "nPC",
+            "components": [],
+            "texture": {
+                "key": "NPC"
+            },
+            "x": 140,
+            "y": 112,
+            "flipX": true
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

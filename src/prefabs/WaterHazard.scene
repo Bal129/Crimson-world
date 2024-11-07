@@ -1,0 +1,31 @@
+{
+    "id": "186e51df-118f-4c96-b16d-e7bad4226e20",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 288,
+        "borderHeight": 192
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c1b0dfeb-8e95-44d8-9e3d-82faebdb9026",
+            "label": "water1",
+            "components": [],
+            "texture": {
+                "key": "Water1"
+            },
+            "x": 137,
+            "y": 52
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
